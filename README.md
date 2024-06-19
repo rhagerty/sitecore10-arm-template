@@ -1,0 +1,1 @@
+# sitecore10-arm-template
