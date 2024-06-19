@@ -1,0 +1,84 @@
+﻿{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "deploymentId": {
+      "value": ""
+    },
+    "location": {
+      "value": "Southeast Asia"
+    },
+    "sitecoreAdminPassword": {
+      "value": ""
+    },
+    "licenseXml": {
+      "value": ""
+    },
+    "repAuthenticationApiKey": {
+      "value": "58588d50667e47b0a02cb919185f7c31"
+    },
+    "sqlServerLogin": {
+      "value": ""
+    },
+    "sqlServerPassword": {
+      "value": ""
+    },
+    "siMsDeployPackageUrl": {
+      "value": "<your storage account URL>/sitecore-packages/Sitecore.IdentityServer.5.0.0-r00277.scwdp.zip"
+    },
+    "cmMsDeployPackageUrl": {
+      "value": "<your storage account URL>/sitecore-packages/Sitecore 10.0.0 rev. 004346 (Cloud)_cm.scwdp.zip"
+    },
+    "cdMsDeployPackageUrl": {
+      "value": "<your storage account URL>/sitecore-packages/Sitecore 10.0.0 rev. 004346 (Cloud)_cd.scwdp.zip"
+    },
+    "prcMsDeployPackageUrl": {
+      "value": "<your storage account URL>/sitecore-packages/Sitecore 10.0.0 rev. 004346 (Cloud)_prc.scwdp.zip"
+    },
+    "repMsDeployPackageUrl": {
+      "value": "<your storage account URL>/sitecore-packages/Sitecore 10.0.0 rev. 004346 (Cloud)_rep.scwdp.zip"
+    },
+    "xcRefDataMsDeployPackageUrl": {
+      "value": "<your storage account URL>/sitecore-packages/Sitecore 10.0.0 rev. 004346 (Cloud)_xp1referencedata.scwdp.zip"
+    },
+    "xcCollectMsDeployPackageUrl": {
+      "value": "<your storage account URL>/sitecore-packages/Sitecore 10.0.0 rev. 004346 (Cloud)_xp1collection.scwdp.zip"
+    },
+    "xcCollectDmzMsDeployPackageUrl": {
+      "value": "<your storage account URL>/sitecore-packages/Sitecore 10.0.0 rev. 004346 (Cloud)_xp1collectionpublic.scwdp.zip"
+    },
+    "xcSearchMsDeployPackageUrl": {
+      "value": "<your storage account URL>/sitecore-packages/Sitecore 10.0.0 rev. 004346 (Cloud)_xp1collectionsearchsolr.scwdp.zip"
+    },
+    "maOpsMsDeployPackageUrl": {
+      "value": "<your storage account URL>/sitecore-packages/Sitecore 10.0.0 rev. 004346 (Cloud)_xp1marketingautomation.scwdp.zip"
+    },
+    "maRepMsDeployPackageUrl": {
+      "value": "<your storage account URL>/sitecore-packages/Sitecore 10.0.0 rev. 004346 (Cloud)_xp1marketingautomationreporting.scwdp.zip"
+    },
+    "authCertificateBlob": {
+      "value": ""
+    },
+    "authCertificatePassword": {
+      "value": ""
+    },
+    "allowInvalidClientCertificates": {  
+      "value": true  
+    },
+    "solrConnectionString":{
+      "value": "https://sitecore-solr.azurewebsites.net/solr"
+    },
+    "aseName": {
+      "value": ""
+    },
+    "aseResourceGroupName": {
+      "value": ""
+    },
+    "dmzAseName": {
+      "value": ""
+    },
+    "dmzAseResourceGroupName": {
+      "value": ""
+    }
+  }
+}
